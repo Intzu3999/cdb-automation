@@ -1,0 +1,459 @@
+{"level":30,"time":"2025-10-30T11:34:59.219Z","pid":32316,"hostname":"ICG-332","msg":"Listening on 127.0.0.1:52210"}
+{"level":30,"time":"2025-10-30T11:34:59.437Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.446Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+================= Original suppressed error =================
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.451Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.451Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.469Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.470Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.474Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.474Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.479Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.479Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.484Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.484Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.486Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.486Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.489Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+================= Original suppressed error =================
+{"level":30,"time":"2025-10-30T11:34:59.492Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.494Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.495Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.501Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.501Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.505Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.505Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.508Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.508Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.544Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.544Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.547Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.547Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.551Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+================= Original suppressed error =================
+{"level":30,"time":"2025-10-30T11:34:59.554Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.561Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.561Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.570Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.570Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.573Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.573Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.578Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.578Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.594Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.594Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.597Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.597Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.600Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.603Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+================= Original suppressed error =================
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.608Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.608Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.615Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.615Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.619Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.619Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.622Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.622Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.624Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.627Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+================= Original suppressed error =================
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.633Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.633Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.641Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.641Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.644Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.644Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.646Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.646Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.649Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.652Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+================= Original suppressed error =================
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.659Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.659Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.667Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.667Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.670Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.670Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.673Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.673Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.675Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.678Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  newBrowser"}
+================= Original suppressed error =================
+browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12543:54)
+    at newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13065:33)
+    at PlaywrightServer.newBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18) {
+  name: 'Error'
+}
+=============================================================
+================= Original suppressed error =================
+{"level":30,"time":"2025-10-30T11:34:59.683Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method takeScreenshot"}
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.683Z","pid":32316,"hostname":"ICG-332","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-10-30T11:34:59.693Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-30T11:34:59.693Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.696Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.696Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-30T11:34:59.700Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.700Z","pid":32316,"hostname":"ICG-332","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-30T11:34:59.761Z","pid":32316,"hostname":"ICG-332","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-10-30T11:34:59.761Z","pid":32316,"hostname":"ICG-332","msg":"End of node method closeAllBrowsers"}

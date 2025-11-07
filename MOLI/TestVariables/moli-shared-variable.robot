@@ -1,0 +1,76 @@
+*** Settings ***
+Documentation    This file only store shared variables only
+
+*** Variables ***
+
+${BAU_MOLI_BASE_URL}    https://d3uk4q70880oob.cloudfront.net
+${BAU_MOLI2_BASE_URL}    https://d1dvzfm7v42b0o.cloudfront.net
+${BAU_MOLI3_BASE_URL}    https://d9ve8w94i7tgf.cloudfront.net
+${BAU_AUTH_BASE_URL}    https://moli-staging.auth.ap-southeast-1.amazoncognito.com
+${BAU_AUTH_PATH}    /token
+${BAU_CLIENT_ID}    190sth074afcel3hm124hi2r7m
+${BAU_CLIENT_SECRET}    qv48sl9afi1jc6dt0cmf2r264pjkjq4l85tq86mcm4c6cm83v4l
+${GRANT_TYPE}    client_credentials
+
+${CELCOMTELCO}    CELCOM
+${DIGITELCO}    DIGI
+${MAXISTELCO}    MAXIS
+
+${BAU_DIGI_PREPAID_MSISDN}    60104367373    #60104362933
+${BAU_CELCOM_PREPAID_MSISDN}    60199248547
+${BAU_DIGI_POSTPAID_MSISDN}    60104369516
+${BAU_CELCOM_POSTPAID_MSISDN}    60136305087
+
+${BAU_DIGI_PREPAID_MSISDN_BARRING}    60104364788    #60104363201        #60109235073
+${BAU_CELCOM_PREPAID_MSISDN_BARRING}    60198456609
+${BAU_DIGI_PREPAID_MSISDN_SUSPENDED}    60104369424    #60104369424    
+${BAU_CELCOM_PREPAID_MSISDN_SUSPENDED}    60198456113
+${BAU_DIGI_PREPAID_MSISDN_DEACTIVATED}        60104367379
+${BAU_CELCOM_PREPAID_MSISDN_DEACTIVATED}    601114917931
+${BAU_MAXIS_PREPAID_MSISDN}    60124564486
+
+${BAU_DIGI_POSTPAID_MSISDN_BARRING}    60104364345  
+${BAU_CELCOM_POSTPAID_MSISDN_BARRING}  60136189190  
+${BAU_DIGI_POSTPAID_MSISDN_SUSPENDED}    60104368281    #60104368281            
+${BAU_CELCOM_POSTPAID_MSISDN_SUSPENDED}    60133908645 
+${BAU_DIGI_POSTPAID_MSISDN_DEACTIVATED}        
+${BAU_CELCOM_POSTPAID_MSISDN_DEACTIVATED}    
+${BAU_MAXIS_POSTPAID_MSISDN}    60196028285    
+
+
+${BAU_POSTPAID_ACCOUNT_NUMBER}    60104369423
+#non strackable offers
+${BAU_DIGI_PREPAID_ADDON_OFFERS_NAME}    5G39-55GB_UL Internet-12mbps_3GB HS_Unltd Calls-AutoRenew
+${BAU_DIGI_PREPAID_ADDON_SERVICE_NAME}    90010868
+
+
+
+${BAU_PREPAID_MSISDN}    60104369423
+
+
+#NBC PATH
+${NBC_MOLI_BASE_URL}    https://d31yztj5imu3ny.cloudfront.net   
+${NBC_AUTH_BASE_URL}    https://moli-staging.auth.ap-southeast-1.amazoncognito.com
+${NBC_AUTH_PATH}        /oauth2/token
+${NBC_CLIENT_ID}        190sth074afcel3hm124hi2r7m
+${NBC_CLIENT_SECRET}    qv48sl9afi1jc6dt0cmf2r264pjkjq4l85tq86mcm4c6cm83v4l
+${NBC_GRANT_TYPE}       client_credentials
+
+#Dealer
+${NBC_ORGANIZATION_CODE}    DIS7799
+${NBC_WALLET_ID}            3638292904
+${NBC_WALLET_SECRET}        oCcURpTb58WiPg/vI/+HUNnXH2TbDUhtAV1xw/9JGc5klYCnoULopoNxRNgmmAPfTmSoM1o3ummwQwur+hpmFw==
+
+#Data
+#=================Prepaid Reload=================
+${NBC_PREPAID_MSISDN}       601016502598
+${NBC_RELOAD_AMOUNT}        ${1}
+#=================Get Customer===================
+&{NBC_EXISTING_CUSTOMER}    
+...    idType=New NRIC
+...    idNumber=910101090108
+
+&{NBC_NEW_CUSTOMER}
+...    idType=New NRIC
+...    idNumber=811010901005
+

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.2 on win32)" generated="2025-10-30T19:34:58.021281" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\RobotFramework\NGOS\TestCases">
+<suite id="s1-s1" name="New-Postpaid-Line" source="C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\RobotFramework\NGOS\TestCases\New-Postpaid-Line.robot">
+<test id="s1-s1-t1" name="Test Case 1: Subscribe new CD Postpaid 5G 160 Line" line="245">
+<kw name="Launch a new browser">
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-10-30T19:34:58.356754" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-10-30T19:34:58.357432" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\7a23802b-a820-4e47-bffa-000de800f415"}</msg>
+<msg time="2025-10-30T19:34:58.394117" level="INFO">Starting Browser process C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:52210</msg>
+<msg time="2025-10-30T19:34:59.452891" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.453019" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.453349" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>about:blank</arg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="FAIL" start="2025-10-30T19:34:58.356141" elapsed="1.104255">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-10-30T19:34:59.460696" elapsed="0.000170"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:58.355255" elapsed="1.105777">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Open NPL Order">
+<status status="NOT RUN" start="2025-10-30T19:34:59.461677" elapsed="0.000230"/>
+</kw>
+<kw name="Change Offer Confirmation">
+<status status="NOT RUN" start="2025-10-30T19:34:59.462262" elapsed="0.000147"/>
+</kw>
+<kw name="Choose Get a New Number">
+<status status="NOT RUN" start="2025-10-30T19:34:59.462729" elapsed="0.000133"/>
+</kw>
+<kw name="Choose SIM Type">
+<status status="NOT RUN" start="2025-10-30T19:34:59.463168" elapsed="0.000136"/>
+</kw>
+<kw name="Verify NRIC">
+<status status="NOT RUN" start="2025-10-30T19:34:59.463599" elapsed="0.000134"/>
+</kw>
+<kw name="Choose a Number">
+<status status="NOT RUN" start="2025-10-30T19:34:59.464063" elapsed="0.000184"/>
+</kw>
+<kw name="Add Suplementary Line">
+<status status="NOT RUN" start="2025-10-30T19:34:59.464537" elapsed="0.000191"/>
+</kw>
+<kw name="Review Selection">
+<status status="NOT RUN" start="2025-10-30T19:34:59.465018" elapsed="0.000191"/>
+</kw>
+<kw name="Checkout Details">
+<status status="NOT RUN" start="2025-10-30T19:34:59.465706" elapsed="0.000187"/>
+</kw>
+<kw name="Make a Payment">
+<status status="NOT RUN" start="2025-10-30T19:34:59.466168" elapsed="0.000133"/>
+</kw>
+<kw name="Payment Confirmation Popup">
+<status status="NOT RUN" start="2025-10-30T19:34:59.466604" elapsed="0.000700"/>
+</kw>
+<kw name="View Transaction Summary">
+<status status="NOT RUN" start="2025-10-30T19:34:59.467619" elapsed="0.000173"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.471301" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.468263" elapsed="0.003203"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:58.354136" elapsed="1.117662">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<doc>This sectionn is store all the imports</doc>
+<status status="FAIL" start="2025-10-30T19:34:58.065997" elapsed="1.410731"/>
+</suite>
+<suite id="s1-s2" name="Ngos-Addon" source="C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\RobotFramework\NGOS\TestCases\ngos-addon.robot">
+<test id="s1-s2-t1" name="Test Case 1: NGOS Subscribe Addon" line="122">
+<kw name="Launch a new browser">
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-10-30T19:34:59.488480" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-10-30T19:34:59.488935" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\08d37e78-cf5f-4474-b961-5c1835aa53bd"}</msg>
+<msg time="2025-10-30T19:34:59.496058" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.496170" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.496272" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>about:blank</arg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.488024" elapsed="0.009678">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-10-30T19:34:59.497877" elapsed="0.000119"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.487621" elapsed="0.010481">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Open VAS Page 1">
+<status status="NOT RUN" start="2025-10-30T19:34:59.498431" elapsed="0.000107"/>
+</kw>
+<kw name="Open VAS Page 2">
+<status status="NOT RUN" start="2025-10-30T19:34:59.498898" elapsed="0.000207"/>
+</kw>
+<kw name="Open VAS Page 3">
+<status status="NOT RUN" start="2025-10-30T19:34:59.499492" elapsed="0.000191"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.503159" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.500183" elapsed="0.003151"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.485735" elapsed="0.017799">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<doc>This sectionn is store all the imports</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.480774" elapsed="0.026204"/>
+</suite>
+<suite id="s1-s3" name="Ngos-Postpaid-Billpayment" source="C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\RobotFramework\NGOS\TestCases\ngos-postpaid-billpayment.robot">
+<test id="s1-s3-t1" name="Test Case : NGOS PayBill Online Banking" line="10">
+<kw name="Launch New Browser" owner="ngos-sharedKeywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-30T19:34:59.551006" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\73525d62-b56e-408c-bc6b-b04841f06d1e"}</msg>
+<msg time="2025-10-30T19:34:59.563528" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.563681" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.563794" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>browser=${browserName}</arg>
+<arg>headless=${headlessBoolean}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.549905" elapsed="0.015351">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<arg>browserName=chromium</arg>
+<arg>headlessBoolean=false</arg>
+<status status="FAIL" start="2025-10-30T19:34:59.548933" elapsed="0.016554">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Open NGOS Bill Payment Page 1" owner="ngos-billpaymentKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.565976" elapsed="0.000443"/>
+</kw>
+<kw name="NGOS Perform Bill Payment" owner="ngos-billpaymentKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.566890" elapsed="0.000251"/>
+</kw>
+<kw name="VIA ONLINE_BANKING" owner="ngos-billpaymentKeywords">
+<arg>${MAYBANK2U_PATH}</arg>
+<status status="NOT RUN" start="2025-10-30T19:34:59.567449" elapsed="0.000490"/>
+</kw>
+<kw name="NGOS Success Page" owner="ngos-billpaymentKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.568193" elapsed="0.000109"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.571490" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.568732" elapsed="0.002880"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.546270" elapsed="0.025563">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<doc>This file only to store test cases</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.510383" elapsed="0.065333"/>
+</suite>
+<suite id="s1-s4" name="Ngos-Prepaid-Reload" source="C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\RobotFramework\NGOS\TestCases\ngos-prepaid-reload.robot">
+<test id="s1-s4-t1" name="Test Case 1: Open NGOS Reload Page and Access" line="10">
+<kw name="Launch New Browser" owner="ngos-sharedKeywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-30T19:34:59.599768" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\b8295f63-8b9a-4093-9db0-5e6da406349d"}</msg>
+<msg time="2025-10-30T19:34:59.609364" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.609469" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.609574" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>browser=${browserName}</arg>
+<arg>headless=${headlessBoolean}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.599011" elapsed="0.011963">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<arg>browserName=chromium</arg>
+<arg>headlessBoolean=false</arg>
+<status status="FAIL" start="2025-10-30T19:34:59.598431" elapsed="0.012699">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Access NGOS Reload Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.611917" elapsed="0.000361"/>
+</kw>
+<kw name="Resize Screen Size" owner="ngos-sharedKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.612831" elapsed="0.000223"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.616741" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.613570" elapsed="0.003290"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.596178" elapsed="0.020958">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<test id="s1-s4-t2" name="Test Case 2: Verify Insert Invalid MSISDN" line="15">
+<kw name="Launch New Browser" owner="ngos-sharedKeywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-30T19:34:59.624546" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\4e39b9aa-4baf-451b-b3bd-eb8cb08fe35b"}</msg>
+<msg time="2025-10-30T19:34:59.635239" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.635346" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.635454" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>browser=${browserName}</arg>
+<arg>headless=${headlessBoolean}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.623896" elapsed="0.013174">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<arg>browserName=chromium</arg>
+<arg>headlessBoolean=false</arg>
+<status status="FAIL" start="2025-10-30T19:34:59.623407" elapsed="0.013821">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Access NGOS Reload Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.637613" elapsed="0.000149"/>
+</kw>
+<kw name="Resize Screen Size" owner="ngos-sharedKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.637969" elapsed="0.000103"/>
+</kw>
+<kw name="Verify NGOS Reload Page 1" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.638404" elapsed="0.000231"/>
+</kw>
+<kw name="Verify Insert Invalid MSISDN" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.638986" elapsed="0.000195"/>
+</kw>
+<kw name="Refresh Current Page" owner="ngos-sharedKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.639457" elapsed="0.000212"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.642190" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.640041" elapsed="0.002286"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.621162" elapsed="0.021421">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<test id="s1-s4-t3" name="Test Case 3: NGOS Reload -Cancel at NGPAY Page" line="23">
+<kw name="Launch New Browser" owner="ngos-sharedKeywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-30T19:34:59.648934" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\15e11b60-90e3-4b8f-9ef7-adc1b18f3ec2"}</msg>
+<msg time="2025-10-30T19:34:59.660929" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.661023" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.661126" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>browser=${browserName}</arg>
+<arg>headless=${headlessBoolean}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.648189" elapsed="0.014352">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<arg>browserName=chromium</arg>
+<arg>headlessBoolean=false</arg>
+<status status="FAIL" start="2025-10-30T19:34:59.647748" elapsed="0.015038">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Access NGOS Reload Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.663169" elapsed="0.000143"/>
+</kw>
+<kw name="Resize Screen Size" owner="ngos-sharedKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.663527" elapsed="0.000101"/>
+</kw>
+<kw name="Verify NGOS Reload Page 1" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.663824" elapsed="0.000093"/>
+</kw>
+<kw name="Verify Insert Valid MSISDN" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.664086" elapsed="0.000085"/>
+</kw>
+<kw name="Verify NGOS Reload Page 2" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.664395" elapsed="0.000082"/>
+</kw>
+<kw name="Validate NGPAY Page" owner="ngpay-Keywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.664645" elapsed="0.000080"/>
+</kw>
+<kw name="Click on Back Button and Click YES Transaction at NGPAY Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.664896" elapsed="0.000078"/>
+</kw>
+<kw name="Verify NGOS Failed Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.665268" elapsed="0.000218"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.668416" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.665991" elapsed="0.002537"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.645771" elapsed="0.023044">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<test id="s1-s4-t4" name="Test Case 4: NGOS Reload Journey RM10" line="34">
+<kw name="Launch New Browser" owner="ngos-sharedKeywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-30T19:34:59.675568" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\eve.keoy\\OneDrive - Infront Consulting APAC\\Desktop\\Dev\\qa-automation-main\\RobotFramework\\NGOS\\browser\\traces\\temp\\62aba9cf-2db8-4cc3-bd31-b55f17d36f95"}</msg>
+<msg time="2025-10-30T19:34:59.684517" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-10-30T19:34:59.684620" level="INFO">See also file:///C:/Users/eve.keoy/OneDrive%20-%20Infront%20Consulting%20APAC/Desktop/Dev/qa-automation-main/RobotFramework/NGOS/playwright-log.txt for additional details.</msg>
+<msg time="2025-10-30T19:34:59.684732" level="FAIL">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</msg>
+<arg>browser=${browserName}</arg>
+<arg>headless=${headlessBoolean}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.674937" elapsed="0.011341">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<arg>browserName=chromium</arg>
+<arg>headlessBoolean=false</arg>
+<status status="FAIL" start="2025-10-30T19:34:59.674467" elapsed="0.012086">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</kw>
+<kw name="Access NGOS Reload Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.687047" elapsed="0.000152"/>
+</kw>
+<kw name="Resize Screen Size" owner="ngos-sharedKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.687434" elapsed="0.000106"/>
+</kw>
+<kw name="Verify NGOS Reload Page 1" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.687739" elapsed="0.000095"/>
+</kw>
+<kw name="Verify Insert Valid MSISDN" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.688008" elapsed="0.000088"/>
+</kw>
+<kw name="Verify NGOS Reload Page 2" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.688492" elapsed="0.000293"/>
+</kw>
+<kw name="Validate NGPAY Page" owner="ngpay-Keywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.689128" elapsed="0.000232"/>
+</kw>
+<kw name="Click on Back Button and Click NO Transaction at NGPAY Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.689721" elapsed="0.000192"/>
+</kw>
+<kw name="Perform Payment Method Selection" owner="ngpay-Keywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.690247" elapsed="0.000168"/>
+</kw>
+<kw name="Online Banking Selection" owner="ngpay-Keywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.690800" elapsed="0.000166"/>
+</kw>
+<kw name="FPX Simulator Page 1" owner="ngpay-Keywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.691236" elapsed="0.000157"/>
+</kw>
+<kw name="FPX Simulator Page 2" owner="ngpay-Keywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.691627" elapsed="0.000100"/>
+</kw>
+<kw name="Verify NGOS Success Page" owner="ngos-reloadKeywords">
+<status status="NOT RUN" start="2025-10-30T19:34:59.692042" elapsed="0.000189"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-10-30T19:34:59.694785" level="INFO">No browser open, doing nothing</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T19:34:59.692556" elapsed="0.002320"/>
+</kw>
+<status status="FAIL" start="2025-10-30T19:34:59.672720" elapsed="0.022324">Error: browserType.launch: Executable doesn't exist at C:\Users\eve.keoy\OneDrive - Infront Consulting APAC\Desktop\Dev\qa-automation-main\venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1194\chrome-win\chrome.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ &lt;3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝</status>
+</test>
+<doc>This file only to store test cases</doc>
+<status status="FAIL" start="2025-10-30T19:34:59.580405" elapsed="0.117785"/>
+</suite>
+<status status="FAIL" start="2025-10-30T19:34:58.023804" elapsed="1.678760"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCases" id="s1" pass="0" fail="7" skip="0">TestCases</stat>
+<stat name="New-Postpaid-Line" id="s1-s1" pass="0" fail="1" skip="0">TestCases.New-Postpaid-Line</stat>
+<stat name="Ngos-Addon" id="s1-s2" pass="0" fail="1" skip="0">TestCases.Ngos-Addon</stat>
+<stat name="Ngos-Postpaid-Billpayment" id="s1-s3" pass="0" fail="1" skip="0">TestCases.Ngos-Postpaid-Billpayment</stat>
+<stat name="Ngos-Prepaid-Reload" id="s1-s4" pass="0" fail="4" skip="0">TestCases.Ngos-Prepaid-Reload</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-30T19:34:58.356754" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-10-30T19:34:59.488480" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

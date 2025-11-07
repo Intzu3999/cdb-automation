@@ -1,0 +1,212 @@
+{
+  "orderType": "New Registration",
+  "upfrontPayment": true,
+  "simType": "esim",
+  "reservationId": "{{reservationIdMSISDN}}",
+  "note": [
+    {
+      "author": "S0002935061",
+      "text": "NEW_ORDER_VALIDATION",
+      "type": "Note"
+    }
+  ],
+  "party": [
+    {
+      "type": "Individual",
+      "role": "Customer",
+      "givenName": "Aidil Test",
+      "title": "Mr.",
+      "familyName": "Automation",
+      "gender": "Male",
+      "nationality": "Malaysia",
+      "birthDate": "{{BirthDate}}",
+      "countryOfBirth": "Malaysia",
+      "languageAbility": [
+        {
+          "languageName": "English",
+          "isFavouriteLanguage": true
+        }
+      ],
+      "individualIdentification": [
+        {
+          "identificationId": "{{IdNumber}}",
+          "identificationType": "{{IdType}}"
+        }
+      ],
+      "partyCharacteristics": [
+        { "name": "mothermaidenname", "value": "Aidil test" },
+        { "name": "race", "value": "Others" },
+        { "name": "authenticationMode", "value": "OCR" },
+        { "name": "customersegment", "value": "Retail" },
+        { "name": "customerCategory", "value": "Consumer" },
+        { "name": "preferredContactType", "value": "SMS" },
+        { "name": "preferredContactTime", "value": "9_12" }
+      ],
+      "contactMedium": [
+        {
+          "type": "PhoneContactMedium",
+          "contactType": "homePhone",
+          "phoneNumber": "{{MSISDN}}"
+        },
+        {
+          "type": "PhoneContactMedium",
+          "contactType": "alternatePhone",
+          "phoneNumber": "{{MSISDN}}"
+        },
+        {
+          "type": "GeographicAddressContactMedium",
+          "contactType": "RESIDENTIAL",
+          "city": "IPOH",
+          "country": "MYS",
+          "postCode": "31350",
+          "street1": "13 Jalan Siakap 3 Rasa",
+          "street2": "Taman Song Choon",
+          "stateOrProvince": "KL"
+        },
+        {
+          "type": "EmailContactMedium",
+          "emailAddress": "maidil.ibrahim@gmail.com",
+          "contactType": "personalEmail"
+        },
+        {
+          "type": "SocialContactMedium",
+          "socialNetworkId": "{{MSISDN}}",
+          "contactType": "whatsApp"
+        }
+      ]
+    }
+  ],
+  "relatedSites": [
+    {
+      "id": "region Id",
+      "role": "REGION",
+      "name": "SOUTHERN"
+    }
+  ],
+  "relatedParty": [
+    {
+      "role": "Dealer",
+      "partyOrPartyRole": {
+        "id": "CKL89999",
+        "name": "dealername",
+        "referredType": "Organization"
+      }
+    },
+    {
+      "role": "SalesRep",
+      "partyOrPartyRole": {
+        "id": "S0644908889",
+        "name": "salesRepName",
+        "referredType": "Individual"
+      }
+    },
+    {
+      "role": "Partner",
+      "partyOrPartyRole": {
+        "id": "P326763264",
+        "name": "salesRepName",
+        "referredType": "Individual"
+      }
+    }
+  ],
+  "productOrderItem": [
+    {
+      "product": {
+        "productOffering": {
+          "id": "PKG0000001"
+        },
+        "productCharacteristics": [
+          {
+            "name": "BRAND",
+            "value": "LIGHTNING_SIM"
+          }
+        ],
+        "productOrderItem": [
+          {
+            "product": {
+              "productOffering": {
+                "id": "PPB0000004"
+              }
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "COP0000001"
+              },
+              "productCharacteristics": [
+                {
+                  "name": "MSISDN",
+                  "value": "{{MSISDN}}"
+                }
+              ]
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "SM00000001"
+              },
+              "productCharacteristics": [
+                {
+                  "name": "ICCID",
+                  "value": "{{ICCID}}"
+                },
+                {
+                  "name": "BRAND",
+                  "value": "REPLACEMENT"
+                }
+              ]
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "FBI0000000"
+              }
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "QTU0000009"
+              }
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "ECN0000000"
+              }
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "IU00000002"
+              }
+            }
+          },
+          {
+            "product": {
+              "productOffering": {
+                "id": "OTP0000001"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "payment": [
+    {
+      "amount": {
+        "value": "35",
+        "unit": "MYR"
+      },
+      "paymentMethod": {
+        "type": "Cash"
+      }
+    }
+  ]
+}

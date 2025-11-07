@@ -1,0 +1,7 @@
+robotframework
+robotframework-appiumlibrary
+robotframework-browser
+robotframework-requests
+robotframework-jsonlibrary
+urllib3==1.26.6
+qase-robotframework

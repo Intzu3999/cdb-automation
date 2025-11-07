@@ -1,0 +1,21 @@
+- npm i -g appium
+- appium driver install uiautomator2
+    - automationName: UiAutomator2
+    - platformNames: ["Android"]
+- appium driver install xcuitest
+    - automationName: XCUITest
+    - platformNames: ["iOS","tvOS"]
+- Setup android path (make sure Android Studio or SDK installed)
+    - sudo nano ~/.zshrc
+    - Paste below code:
+        export ANDROID_HOME=~/Library/Android/sdk
+        export ANDROID_SDK_ROOT=~/Library/Android/sdk
+        export PATH=$PATH:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools
+    - Save the file.
+    - Run: source ~/.zshrc
+- Setup iOS
+    - install xcode
+- appium --base-path /wd/hub
+**Additional if needed
+- npm install @appium/doctor -g
+- appium --allow-cors

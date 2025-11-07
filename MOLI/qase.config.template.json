@@ -1,0 +1,30 @@
+{
+  "mode": "testops",
+  "fallback": "report",
+  "debug": true,
+  "testops": {
+    "project": "MOLI",
+    "api": {
+      "token": "8187f2c27be49e082a8e8a1fa3cf30b83c54a8d4d38df129a0365787f48554ab",
+      "host": "qase.io"
+    },
+    "run": {
+      "title": "@timestamp",
+      "description": "Regress run description",
+      "complete": true
+    },
+    "batch": {
+      "size": 100
+    }
+  },
+  "report": {
+    "driver": "local",
+    "connection": {
+      "local": {
+        "path": "./build/qase-report",
+        "format": "json"
+      }
+    }
+  },
+  "environment": "local"
+}
