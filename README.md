@@ -9,22 +9,22 @@ python3 -v
 node -v
 npm -v
 npx -v
-![README-verifyInstallPythonNode.png](screenshots\README\README-verifyInstallPythonNode.png)
+![README-verifyInstallPythonNode.png](screenshots/README/README-verifyInstallPythonNode.png)
 
 ## Create and setup clean project / Python virtual environment
 1) python -m pip install --upgrade pip
  or python.exe -m pip install --upgrade pip
 2) pip install -r requirements.txt or python3 -m pip install -r requirements.txt
-![README-pipinstallrequirements.png](screenshots\README\README-pipinstallrequirements.png)
+![README-pipinstallrequirements.png](screenshots/README/README-pipinstallrequirements.png)
 3) rfbrowser init (do not connect to VPN/CDB network, use CMD not Powershell!)
-![README-rfbrowserinit.png](screenshots\README\README-rfbrowserinit.png)
+![README-rfbrowserinit.png](screenshots/README/README-rfbrowserinit.png)
 4) verify: rfbrowser --version (use CMD not bash or powershell!)
-![README-rfbrowser--version.png](screenshots\README\README-rfbrowser--version.png)
+![README-rfbrowser--version.png](screenshots/README/README-rfbrowser--version.png)
 
 
 ## Set up Qase integration
 5) pip install qase-robotframework
-![README-pipinstallqase-robotframework.png](screenshots\README\README-pipinstallqase-robotframework.png)
+![README-pipinstallqase-robotframework.png](screenshots/README/README-pipinstallqase-robotframework.png)
 
 
 
