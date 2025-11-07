@@ -24,7 +24,7 @@ npx -v
 
 ## Set up Qase integration
 5) pip install qase-robotframework
-![README-pipinstallqase-robotframework.png](screenshots\README\README-pipinstallqase-robotframework.png)
+![README-pipinstallqase-robotframework.png](screenshots/README/README-pipinstallqase-robotframework.png)
 
 
 
